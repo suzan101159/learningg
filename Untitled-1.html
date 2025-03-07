@@ -1,5 +1,7 @@
 <html>
     <head>
+    </head>
+    <body
         <h1>How to use Git</h1>
         <hr>
         <p>steps</p>
@@ -155,21 +157,78 @@
                 &lt a name="# bookmark_start"&gt<a name="# bookmark_start">bookmark_end</a>&lt/a&gt<br>          
             </li>
             <li>
-                &lttable align="middle" &gt<br>
-                <table align="middle">
+                &lttable align="middle" background="顏色照片" border="寬度&gt<br>
+                
+                <table align="center">
+                    <caption>&ltcaption&gt表格標題&lt/caption&gt</caption>
                     <tr>
-                        <td>&lttd&gt&lt/td&gt</td><td>&lttd&gt&lt/td&gt</td>
+                        <th align="center" valign="middle">&nbsp<br>&lttr&gt<br>&nbsp</th><th align="center" valign="middle">&ltth align="center" valign="middle"&gt</th><th align="center" valign="middle">標題</th><th align="center" valign="middle">&lt/th&gt</th><td align="center" valign="middle">&nbsp<br>&lttr&gt<br>&nbsp</td>
                     </tr>
-                    <tr><td></td><td></td></tr>
                     <tr>
-                        <td>&lttd&gt&lt/td&gt</td><td>&lttd&gt&lt/td&gt</td>
-                    </tr>&lt/tr&gt
+                        <td align="center" valign="middle">&nbsp<br>&lttr&gt<br>&nbsp</td><td align="center" valign="middle">&lttd align="right" valign="bottom"&gt</td><td align="right" valign="bottom">內文</td><td align="center" valign="middle">&lt/td&gt</td><td align="center" valign="middle"> &nbsp<br>&lttr&gt<br>&nbsp</td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">&nbsp<br>&lttr&gt<br>&nbsp</td><td align="center" valign="middle">&lttd align="left" valign="top"&gt</td><td align="left" valign="top">內文</td><td align="center" valign="middle">&lt/td&gt</td><td align="center" valign="middle">&nbsp<br>&lttr&gt<br>&nbsp</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">&lttd rowspan="2"&gt合併兩列&lt/td&gt</td><td colspan="2">&lttd colspan="2"&gt合併兩欄&lt/td&gt</td><td align="center" valign="bottom" rowspan="2" colspan="2">&lttd rawspan="2" colspan="2"&gt合併2*2格&lt/td&gt</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">&lttd colspan="2"&gt合併兩欄&lt/td&gt</td>
+                    </tr>
+                    
+                    <thead>
+                        <tr>
+                            <td><br>&ltthead&gt<br>&nbsp表格頭部<br>&lt/thead&gt</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lttbody&gt<br>&nbsp表格中段<br>&lt/tbody&gt</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>&ltfoot&g<br>t&nbsp表格尾段<br>&lt/tfoot&gt</td>
+                        </tr>
+                    </tfoot>    
                 </table>
                 &lt/table&gt<br>
             </li>
-        </ul>
-    </head>
-    <body>
-
+            <li>&ltform&gt
+                <form>
+                    &ltinput type="text" name="title" value="<input type="text" name="title" value="預設值">&quot<br>
+                    &ltinput type="password" name="password-group"&gt<input type="password" name="password-group">
+                    &ltinput type="submit" value="<input type="submit" value="提交">"<br>
+                    &ltinput type="reset" value="<input type="reset" value="重新輸入">"<br>
+                    &ltinput type="button" value="<input type="botton" value="按鈕文字">"<br>
+                    &ltinput type="checkbox" name="checkanswer-group" value="多選資料標籤"&gt;<input type="checkbox" name="checkanswer[]" value="多選類別">多選框<br>
+                    &ltinput type="checkbox" checked="true"&gt;<input type="checkbox" checked=true">預設選取<br>
+                    &ltinput type="radio" name="同一個name裡單選"&gt;<input type="radio" name="single-choose-groop">單選框
+                    &lttextarea row="高度2" cols="寬度20"&gt;<textarea row="3" cols="20">輸入框預設文字</textarea>&lt/textarea&gt<br>
+                    &ltselect name="select-group size="選項數" multiple="一起顯示"&gt;
+                    <select name="select-group" size="2" multiple="true">
+                        <option value="select value">&ltoption value="資料標籤1"&gt顯示內容1&lt/option&gt</option>
+                        <option value="select value">&ltoption value="資料標籤2"&gt顯示內容2&lt/option&gt</option>
+                    </select>
+                    &lt/select&gt
+                </form>
+                &ltform&gt
+            </li>
+            <li>&ltspan&gt
+                <span>
+                    不會自動換行的區塊
+                </span>
+                &lt/span&gt
+            </li>
+            <li>&ltdivt&gt
+                <div>
+                    會自動換行的區塊
+                </div>&lt/div&gt
+            </li>
+            <li>排版<br>
+                <img src="排版.png" height=200>
+            </li>
+  </ul>
     </body>
 </html>
